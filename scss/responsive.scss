@@ -1,0 +1,29 @@
+.hide-l{
+	display: none;
+}
+.show-l{
+	display: block;
+}
+@media only screen and (max-width:768px) {
+    .hide-m {
+        display: none;
+    }
+    .show-m {
+        display: block;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .hide-s {
+        display: none;
+    }
+    .show-s {
+        display: block;
+    }
+    .content-timeline .content-content-timeline{
+        width: calc(100% - 50px) !important;
+    }
+    .icon-timeline{
+        width: 50px !important;
+    }
+}
